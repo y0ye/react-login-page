@@ -3,7 +3,11 @@ Just practice...
 To run:\
     -download\
     -cd into file\
-    -npm run dev
+    -npm run dev\
+
+Or: https://y0ye.github.io/react-login-page/
+
+
 
 TS, React, Vite
 
