@@ -5,7 +5,7 @@ To run:\
     -cd into file\
     -npm run dev\
 
-Or: https://y0ye.github.io/react-login-page/
+Or: https://y0ye.github.io/react-login-page/ ----nvm its not working
 
 
 
