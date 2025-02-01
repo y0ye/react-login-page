@@ -1,9 +1,9 @@
 Just practice...
 
 To run:
-  download
-  cd into file
-  npm run dev
+  -download
+  -cd into file
+  -npm run dev
 
 TS, React, Vite
 
