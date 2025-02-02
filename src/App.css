@@ -18,7 +18,7 @@ body{
 
   background-color: aliceblue;
   border-radius: 2rem;
-  gap:1rem;
+  gap:0rem;
 
   @media (max-width: 1920px) {
     transform: scale(1);
