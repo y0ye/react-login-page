@@ -24,6 +24,7 @@ export function LoginForm({ user, handleUserChange, password, handlePassChange, 
         type='submit'
       >Submit</button>
     </form>
+    
     );
   }
 
