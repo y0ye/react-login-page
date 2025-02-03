@@ -1,10 +1,11 @@
 //LoginForm Component
+import styles from './App.module.css'
 
 import { LoginFormProps } from '../interfaces/LoginFormProps.tsx';
 
 export function LoginForm({ user, handleUserChange, password, handlePassChange, handleSubmit }: LoginFormProps) {
     return (
-    <form className='login-form' onSubmit={handleSubmit}>
+    <form className='styles.login-form' onSubmit={handleSubmit}>
       <input
         placeholder="Username"
         type="text"

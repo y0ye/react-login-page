@@ -4,14 +4,14 @@ import { SignUp } from './components/SignUp';
 import { LoginMessages } from './components/LoginMessages';
 import { useLogin } from './hooks/useLogin';
 import './App.css'
+import { Outlet } from 'react-router';
 
-function App() {
+export default function App() {
 
   //passed in from custom hook- useLogin.tsx
   const { user, handleUserChange, password, handlePassChange, handleSubmit, error } = useLogin();
 
   return (
-    <>
       <div className='container'>
         <div className='left-container'>
           <h1 className='login-header'>Login</h1>
@@ -25,9 +25,7 @@ function App() {
           <SignUp />
         </div>
         <LoginMessages />
+        <Outlet/>
       </div>
-    </>
-  )
+  );
 }
-
-export default App

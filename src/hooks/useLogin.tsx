@@ -1,5 +1,4 @@
 //custom hook
-
 import { useState } from "react";
 
 export function useLogin() {
@@ -14,6 +13,7 @@ export function useLogin() {
         }
         else {
             setError("")
+            //after login, hide login comp
         }
     }
 
