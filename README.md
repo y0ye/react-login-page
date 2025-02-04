@@ -19,4 +19,10 @@ V2:
 
 ![image](https://github.com/user-attachments/assets/c4fbe5d1-466e-4e84-8d5e-11f6724461b7)
 
+V3:
 
+![image](https://github.com/user-attachments/assets/75ee4ac9-6c75-451d-8588-b51fd5b640e7)
+& dashboard layout work
+![image](https://github.com/user-attachments/assets/efd62240-1290-40dc-b012-a64fe291584b)
+
+I want to make a messaging app 🤔
