@@ -28,7 +28,7 @@ export function Dashboard() {
 
                         <div className='friend-info'>
                             <div className='primary-info'>
-                                <img src='./public/pfp-placeholder.jpg'></img>
+                                <img src='src/img/pfp-placeholder.jpg'></img>
                                 <div className='friend-name-user'>
                                     <h4>Dustin Blake</h4>
                                     <h5>@dustin.blake</h5>
@@ -49,24 +49,32 @@ export function Dashboard() {
                 </div>
                 <div className="message-panel">
                     <div className='message-top'>
-                        <div className='lhs-info'>Dustin</div>
-                        <div className='rhs-interactables'>
-                            <ul>
-                                <li>O</li>
-                                <li>O</li>
-                                <li>O</li>
-                            </ul>
+                        <div className='lhs-info'>
+                            <div className='primary-info'>
+                                <img src='src/img/pfp-placeholder.jpg'></img>
+                                <div className='friend-name-user'>
+                                    <h4>Dustin Blake</h4>
+                                    <h5>@dustin.blake</h5>
+                                </div>
+                            </div>
+                            <div className='buttons-call'>
+                                <button>Call</button>
+                                <button>Video Call</button>
+                            </div>
                         </div>
                     </div>
                     <div className='message-middle'>
-                        <div className='message-display'></div>
+                        <div className='message-display'>
+                            <div className='received-message'>
+                                <div><p>Hey How are you!?</p></div>
+                            </div>
+                            <div className='sent-message'>
+                                <div><p>Hey How are you!?</p></div>
+                            </div>
+                        </div>
                         <div className='message-bottom'>
                             <div className='text-field-message'><input type='text' placeholder='Enter Message'></input></div>
                             <div className='message-effects-submit'>
-                                <ul>
-                                    <li>adasd</li>
-                                    <li>as123</li>
-                                </ul>
                                 <button>Submit</button>
                             </div>
                         </div>

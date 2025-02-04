@@ -18,30 +18,30 @@
     height: 100%;
     background-color: rgb(249, 247, 247);
     border-width: 1px;
-    border-right-width:0px;
+    border-right-width: 0px;
     border-color: rgb(203, 203, 203);
     border-style: solid;
 
-    h2{
+    h2 {
         margin-inline: 3rem;
         margin-top: 5rem;
         margin-bottom: 0rem;
         text-align: center;
     }
-    
-    ul{
+
+    ul {
         list-style: none;
         margin-inline: 3rem;
         margin-top: 1rem;
-        padding:0;
+        padding: 0;
     }
 
-    li{
+    li {
         display: flex;
         flex-direction: row;
         margin-top: 1rem;
         margin-bottom: 0rem;
-        gap:1rem;
+        gap: 1rem;
     }
 }
 
@@ -53,17 +53,17 @@
     height: 100%;
     background-color: rgb(249, 247, 247);
 
-    .title-search{
-        width:100%;
+    .title-search {
+        width: 100%;
         text-align: center;
 
-        h2{
-            margin:0;
+        h2 {
+            margin: 0;
             margin-top: 2rem;
             margin-bottom: 1rem;
         }
 
-        input{
+        input {
             width: 90%;
             height: 2rem;
             border-radius: .3rem;
@@ -73,55 +73,57 @@
             margin-bottom: .5rem;
         }
 
-    
+
     }
 
-    .friend {
-        border-bottom-width: 0px;
-        border-top-width: 1px;
-        border-inline-width: 0px;
-        border-color: rgb(203, 203, 203);
-        border-style: solid;
-        padding:1rem;
 
-        .friend-info {
-            gap: 1rem;
-            display: flex;
-            width: 100%;
+}
 
-            .primary-info {
-                width: 50%;
-                display: flex;
-                gap: 1rem;
+.friend {
+    border-bottom-width: 0px;
+    border-top-width: 1px;
+    border-inline-width: 0px;
+    border-color: rgb(203, 203, 203);
+    border-style: solid;
+    padding: 1rem;
 
-                img {
-                    height: 4rem;
-                    border-radius: 4rem;
-                }
+    .friend-info {
+        gap: 1rem;
+        display: flex;
+        width: 100%;
 
-                .friend-name-user {
-                    h4 {
-                        margin: 0;
-                    }
+        p {
+            width: 50%;
+            margin-right: 0;
+            margin-top: 0;
+            text-align: end;
+        }
+    }
 
-                    h5 {
-                        margin: 0;
-                    }
-                }
-            }
+    .recent-message {
+        p {
+            margin: 1rem;
+        }
+    }
+}
 
-            p {
-                width: 50%;
-                margin-right: 0;
-                margin-top: 0;
-                text-align: end;
-            }
+.primary-info {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+
+    img {
+        height: 4rem;
+        border-radius: 4rem;
+    }
+
+    .friend-name-user {
+        h4 {
+            margin: 0;
         }
 
-        .recent-message {
-            p {
-                margin: 1rem;
-            }
+        h5 {
+            margin: 0;
         }
     }
 }
@@ -130,4 +132,86 @@
     width: 60%;
     height: 100%;
     background-color: rgb(249, 247, 247);
+
+    .message-top{
+        height: 5rem;
+    }
+
+    .lhs-info{
+        display: flex;
+        margin: 1rem;
+
+        .buttons-call{
+            margin:auto;
+            margin-right: 0;
+        }
+    }
+
+    .message-middle{
+        background-color: antiquewhite;
+        height: 91%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .message-display{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex-grow: 1;
+            overflow-y: auto;
+
+            .received-message{
+                margin-top: 1rem;
+                margin-left: 1rem;
+                text-wrap-mode:wrap;
+                width:fit-content;
+                background-color: rgb(216, 216, 216);
+                border-radius: 4rem;
+
+                p{
+                    margin: 1rem;
+                }
+            }
+
+            .sent-message{
+                margin: auto;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                width: fit-content;
+                text-wrap-mode:wrap;
+                align-content: end;
+                background-color: rgb(109, 167, 253);
+                border-radius: 3rem;
+                
+                p{
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+
+    .message-bottom{
+        margin-top: auto;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: sticky;
+        bottom: 0;
+        align-items: center;
+
+        input{
+            height:4rem;
+            width:40vw;
+            border-radius: 4rem;
+            border-color: rgb(202, 202, 202);
+            border-style: solid;
+            word-wrap: normal;
+            text-wrap-mode:wrap;
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
 }
