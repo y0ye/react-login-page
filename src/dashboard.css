@@ -128,14 +128,20 @@
     }
 }
 
+.message-top{
+    border-width: 1px;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-style: solid;
+    border-color: rgb(203, 203, 203);
+    height: 5rem;
+}
+
 .message-panel {
+
     width: 60%;
     height: 100%;
     background-color: rgb(249, 247, 247);
-
-    .message-top{
-        height: 5rem;
-    }
 
     .lhs-info{
         display: flex;
@@ -144,6 +150,13 @@
         .buttons-call{
             margin:auto;
             margin-right: 0;
+
+            button{
+                border-style: solid;
+                border-width: 2px;
+                border-color: antiquewhite;
+                margin:.2rem;
+            }
         }
     }
 
@@ -161,6 +174,13 @@
             width: 100%;
             flex-grow: 1;
             overflow-y: auto;
+
+            
+            border-width: 0;
+            border-right-width:1px;
+            border-bottom-width: 1px;
+            border-style: solid;
+            border-color: rgb(203, 203, 203);
 
             .received-message{
                 margin-top: 1rem;
@@ -193,14 +213,20 @@
     }
 
     .message-bottom{
-        margin-top: auto;
-        margin-bottom: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 3.0rem;
         display: flex;
         flex-direction: column;
         width: 100%;
         position: sticky;
         bottom: 0;
         align-items: center;
+
+        border-width: 0;
+        border-right-width:1px;
+        border-bottom-width: 0px;
+        border-style: solid;
+        border-color: rgb(203, 203, 203);
 
         input{
             height:4rem;
