@@ -26,3 +26,7 @@ V3:
 ![image](https://github.com/user-attachments/assets/efd62240-1290-40dc-b012-a64fe291584b)
 
 I want to make a messaging app 🤔
+
+v2 - dashboard
+![image](https://github.com/user-attachments/assets/dee347b9-8769-4211-a7ec-5c23098dc342)
+
